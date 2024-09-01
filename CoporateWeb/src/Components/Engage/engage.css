@@ -1,0 +1,58 @@
+.engage-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 100px;
+  background-color: #f8f9fa;
+}
+
+.engage-content {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 40px;
+}
+
+.engage-content h2 {
+  font-size: 2.5rem;
+  color: #212529;
+  margin-bottom: 20px;
+}
+
+.engage-content h2 span {
+  color: #28a745; /* Green color */
+}
+
+.engage-content p {
+  font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.engage-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.engage-btn:hover {
+  background-color: #212529;
+}
+
+.engage-image {
+  flex: 1;
+  max-width: 45%;
+  text-align: right;
+}
+
+.engage-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}

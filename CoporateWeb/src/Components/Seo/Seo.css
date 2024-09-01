@@ -1,0 +1,73 @@
+.seo-container {
+  background-color: #e6f7f7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.seo-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seo-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.seo-highlight {
+  color: #20c997;
+}
+
+.seo-description {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.seo-subtitle {
+  color: #20c997;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.seo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.seo-input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.seo-disclaimer {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.seo-button {
+  background-color: #20c997;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seo-button:hover {
+  background-color: #1ba884;
+}

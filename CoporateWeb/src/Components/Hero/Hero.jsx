@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import backgroundImage from "";
+import backgroundImage from "../../assets/heroimage.png"; // Update the path if necessary
 
 function Hero() {
   return (
@@ -17,9 +17,9 @@ function Hero() {
           <button className="btn engage-btn">Engage Us</button>
           <button className="btn audit-btn">Get A Free SEO Audit</button>
         </div>
-        <div className="hero-image">
-          <img src={backgroundImage} alt="Hero Background" />
-        </div>
+      </div>
+      <div className="hero-image">
+        <img src={backgroundImage} alt="Hero Background" />
       </div>
     </div>
   );
