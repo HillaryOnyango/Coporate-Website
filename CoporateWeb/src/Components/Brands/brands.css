@@ -1,0 +1,56 @@
+.brands-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.brands-row {
+  display: flex;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.top-row {
+  animation-name: moveLeft;
+}
+
+.bottom-row {
+  animation-name: moveRight;
+}
+
+.brand-item {
+  flex: 0 0 auto;
+  margin: 0 20px;
+}
+
+.brand-item img {
+  max-width: 150px;
+  height: auto;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .brand-item img {
+    max-width: 100px;
+  }
+}
