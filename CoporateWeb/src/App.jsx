@@ -1,6 +1,7 @@
 import Brands from "./Components/Brands/Brands";
 import Engage from "./Components/Engage/Engage";
 import Hero from "./Components/Hero/Hero";
+import Marketing from "./Components/Marketing/Marketing";
 import Navbar from "./Components/Navabar/Navbar";
 import Reviews from "./Components/Reviews/Reviews";
 import Seo from "./Components/Seo/Seo";
@@ -19,6 +20,7 @@ function App() {
         <Brands />
         <Studies />
         <Reviews />
+        <Marketing />
       </div>
     </>
   );
