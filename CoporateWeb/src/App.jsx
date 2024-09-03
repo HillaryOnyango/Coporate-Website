@@ -3,6 +3,7 @@ import Engage from "./Components/Engage/Engage";
 import Hero from "./Components/Hero/Hero";
 import Marketing from "./Components/Marketing/Marketing";
 import Navbar from "./Components/Navabar/Navbar";
+import Recent from "./Components/Recent/Recent";
 import Reviews from "./Components/Reviews/Reviews";
 import Seo from "./Components/Seo/Seo";
 import Services from "./Components/Services/Services";
@@ -21,6 +22,7 @@ function App() {
         <Studies />
         <Reviews />
         <Marketing />
+        <Recent />
       </div>
     </>
   );
