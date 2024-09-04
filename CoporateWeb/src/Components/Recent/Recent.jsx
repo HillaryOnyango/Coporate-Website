@@ -5,7 +5,7 @@ import "./recent.css";
 import recent1 from "../../assets/recent1.jpg";
 import recent2 from "../../assets/recent2.jpg";
 import recent3 from "../../assets/recent3.jpg";
-import authorImage from "../../assets/rece.jpg";
+import authorImage from "../../assets/rece.png";
 
 const articlesData = [
   {
