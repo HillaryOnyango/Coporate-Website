@@ -1,5 +1,6 @@
 import Brands from "./Components/Brands/Brands";
 import Engage from "./Components/Engage/Engage";
+import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Marketing from "./Components/Marketing/Marketing";
 import Navbar from "./Components/Navabar/Navbar";
@@ -23,6 +24,7 @@ function App() {
         <Reviews />
         <Marketing />
         <Recent />
+        <Footer />
       </div>
     </>
   );
